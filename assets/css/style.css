@@ -1,10 +1,9 @@
-/*
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-*/
+
 :root {
 
     --width: 50%;
@@ -235,13 +234,15 @@ p {
 
 }
 
-.side-aboutme {
+.side-aboutme,
+.side-work,
+.side-contactme {
     margin: 32px;
     color: #ffffff;
     text-align: left;
 }
 
-.side-work {
+/*.side-work {
     margin: 32px;
     color: #ffffff;
     text-align: left;
@@ -271,7 +272,10 @@ p {
 
 }
 
-.contact-me {
+.contact-me,
+.phone-number,
+.email-id,
+.github-id {
 
     font-size: medium;
     color: white;
@@ -279,7 +283,7 @@ p {
     justify-content: space-between;
 }
 
-.phone-number {
+/*.phone-number {
     font-size: medium;
 
     text-decoration: underline;
@@ -302,9 +306,13 @@ p {
     text-decoration: underline;
     justify-content: space-between;
 }
+*/
 
-
-
+h3 {
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
 
 @media screen and (max-width: 768px) {
 
