@@ -6,8 +6,8 @@
 
 :root {
 
-    --width: 50%;
-    --height: 40%;
+    --width: 40%;
+    --height: 50%;
 }
 
 body {
@@ -19,11 +19,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #aa7e4b;
     color: #ffffff;
+
+}
+
+img {
+    max-width: 7%;
+    max-height: 7%;
 }
 
 .header h1 {
     display: inline-flex;
     font-size: 48px;
+    background-color: rgb(95, 47, 13);
 
 }
 
@@ -48,13 +55,14 @@ nav a {
 }
 
 .subtitle {
+
     height: 150px;
     width: auto;
     color: white;
     background-color: #724c21;
-    padding: 30px;
+    padding: 50px;
 
-    font-size: 20px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -83,16 +91,17 @@ h2 h3 h4 {
 }
 
 
-/*.float-right {
-    float: right;
-    margin-left: 25px;
-}*/
 
-.content {
-    display: inline;
+.flex-container {
     flex-wrap: wrap;
+    flex-direction: row;
 
 
+
+}
+
+.main {
+    flex-direction: row;
 }
 
 .About-me {
@@ -122,18 +131,98 @@ p {
     width: auto;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+
+}
+
+
+.Work1 img {
+    display: inline-flex;
+
+    width: 50%;
+    height: 100%;
     border-width: 4px;
     border-color: black;
     border-radius: 2%;
-    /* border-style: dashed;
-    background-color: rgb(95, 47, 13);
-    float: right;*/
-    flex-direction: row;
-
+    border-style: solid;
 
 
 }
 
+.Work2 img,
+.Work3 img,
+.Work4 img,
+.Work5 img {
+
+
+    width: var(--width);
+    height: var(--height);
+
+}
+
+
+
+.blur-on-hover:hover {
+    filter: blur(5px);
+}
+
+
+
+/*.side-aboutme,
+.side-work,
+.side-contactme {
+    margin: 32px;
+    color: #ffffff;
+    text-align: left;
+}*/
+
+
+.footer {
+    display: inline;
+    background-color: #aa7e4b;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.contact-me,
+.phone-number,
+.email-id,
+.github-id {
+    display: flex;
+    font-size: medium;
+    color: white;
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+
+
+h3 {
+    position: relative;
+    bottom: 50px;
+    /* left: 20px;*/
+    background-color: rgb(107, 43, 0);
+    width: fit-content;
+    padding: 6px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: row;
+    }
+}
+
+/*.float-right {
+    float: right;
+    margin-left: 25px;
+}*/
 /*
 .Work2 {
     margin-bottom: 20px;
@@ -180,24 +269,6 @@ p {
     border-radius: 2%;
 }
 */
-.Work1 img {
-    width: 60%;
-    height: 50%;
-
-
-
-}
-
-.Work2 img,
-.Work3 img,
-.Work4 img,
-.Work5 img {
-
-    width: var(--width);
-    height: var(--height);
-
-}
-
 /*.Work3 img {
     width: var(--width);
     height: var(--height);
@@ -215,33 +286,6 @@ p {
     height: var(--height);
 
 }*/
-
-.blur-on-hover:hover {
-    filter: blur(5px);
-}
-
-.side-content {
-    background-color: #aa7e4b;
-    color: white;
-    font-size: larger;
-    text-decoration: dotted;
-    width: 5px;
-    height: 1000px;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-top: auto;
-    text-align: left;
-
-}
-
-.side-aboutme,
-.side-work,
-.side-contactme {
-    margin: 32px;
-    color: #ffffff;
-    text-align: left;
-}
-
 /*.side-work {
     margin: 32px;
     color: #ffffff;
@@ -260,29 +304,6 @@ p {
     color: ;
     
 }*/
-.footer {
-    display: inline;
-    background-color: #aa7e4b;
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    width: auto;
-    height: auto;
-
-}
-
-.contact-me,
-.phone-number,
-.email-id,
-.github-id {
-
-    font-size: medium;
-    color: white;
-    text-decoration: underline;
-    justify-content: space-between;
-}
-
 /*.phone-number {
     font-size: medium;
 
@@ -307,17 +328,16 @@ p {
     justify-content: space-between;
 }
 */
+/*.side-content {
+    background-color: #aa7e4b;
+    color: white;
+    font-size: larger;
+    text-decoration: dotted;
+    width: 5px;
+    height: 1000px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: auto;
+    text-align: left;
 
-h3 {
-    position: relative;
-    bottom: 60px;
-    left: 20px;
-}
-
-@media screen and (max-width: 768px) {
-
-    main,
-    nav {
-        flex-direction: column;
-    }
-}
+}*/
