@@ -34,4 +34,6 @@ N/A
 
 The following image demonstrates the website appearance:
 
-![Website](./Develop/assets/images/Screenshot-Assng-module-1.png)
+![Website](./assets/images/screenshot1.png)
+![Website](./assets/images/screenshot2.png)
+
