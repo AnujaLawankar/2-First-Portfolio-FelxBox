@@ -4,7 +4,7 @@
 ## Description
  In my portfolio webpage, I added my skills, experience, and accomplishments as a software analyst. Here are some key elements in my portfolio:-
 
-Subtitle:- I mention cool subtitle in my subtitle section.
+Subtitle: I mention cool subtitle in my subtitle section.
 
 About me: I mention my current status and also with education and experience.
 
