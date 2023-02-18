@@ -15,12 +15,24 @@ Professional experience: A summary of my work experience as a software analyst, 
 
 Contact information: Finally, included my contact information, such as email and gitgub profile, so that potential employers or clients can easily reach out to me.
 
+
+URLs:-
+Here, you can find the webpage.
+
+Portfolio URL:-  https://anujalawankar.github.io/assignment-module-2/
+
+
+Here, you can find the GitHub url.
+
+GitHub URL:-    https://github.com/AnujaLawankar/assignment-module-2
+
 ## Installation
 
 N/A
 
 ## Usage
 
+N/A
 
 ## Credits
 
