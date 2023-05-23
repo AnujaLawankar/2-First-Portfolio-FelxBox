@@ -26,6 +26,12 @@ Here, you can find the GitHub url.
 
 GitHub URL:-    https://github.com/AnujaLawankar/assignment-module-2
 
+Here, you can find heroku link for Group:-2 project,
+Group2 Project Name :- GroanZone
+
+Heroku URL:- https://young-reef-43824.herokuapp.com/
+
+
 ## Installation
 
 N/A
