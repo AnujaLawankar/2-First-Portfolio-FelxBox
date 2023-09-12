@@ -19,7 +19,7 @@ Contact information: Finally, included my contact information, such as email and
 URLs:-
 Here, you can find the webpage.
 
-Portfolio URL:-  https://anujalawankar.github.io/assignment-module-2/
+Portfolio URL:-  https://anujalawankar.github.io/2-First-Portfolio-FelxBox/
 
 
 Here, you can find the GitHub url.
